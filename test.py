@@ -62,3 +62,8 @@ listadePreciosConIVA21 = list(map(lambda x: x * 1.21, listadePrecios))
 listadePreciosConIVA10 = list(map(lambda x: x * 1.10, listadePrecios))
 print(listadePreciosConIVA21)
 print(listadePreciosConIVA10)
+
+#Ejercicio convertir una lista de elementos que contiene dictionarios
+listaDeDictionario = [ { "Edad": 12, "nombre": "jorge"}, { "Edad": 72, "nombre": "Danile" }  ]
+#Convertilo a lista de Edades
+#Y luego calcular promedio...
