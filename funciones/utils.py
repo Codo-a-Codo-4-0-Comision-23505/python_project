@@ -1,6 +1,9 @@
 def calcularArea(base, altura):
     areaTotal = None
     areaTotal = base * altura
+    print(id(base))
+    base = 100
+    print(id(base))
     return areaTotal
 
 def conteo(hastaNumero):
