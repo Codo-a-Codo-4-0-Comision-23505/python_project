@@ -64,6 +64,15 @@ print(listadePreciosConIVA21)
 print(listadePreciosConIVA10)
 
 #Ejercicio convertir una lista de elementos que contiene dictionarios
-listaDeDictionario = [ { "Edad": 12, "nombre": "jorge"}, { "Edad": 72, "nombre": "Danile" }  ]
+listaDeDictionario = [ { "Edad": 12, "nombre": "jorge"}, { "Edad": 72, "nombre": "Daniel" }  ]
 #Convertilo a lista de Edades
 #Y luego calcular promedio...
+
+#print(listaDeDictionario[0]["Edad"])
+
+listaEdades = list( map(lambda x: x["Edad"] , listaDeDictionario) )
+valorTotal = 0
+for x in listaEdades:
+    valorTotal +=x
+
+print(valorTotal/len(listaEdades))
