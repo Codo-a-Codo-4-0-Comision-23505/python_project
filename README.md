@@ -33,4 +33,7 @@ Y repetir punto anterior
 
 Luego para correrlo deben ejecutar
 
+py -m flask run
+
+### otras opciones
 python -m flask --app hello run
